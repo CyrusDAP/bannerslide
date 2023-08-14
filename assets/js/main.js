@@ -17,7 +17,7 @@ function moveSlides(direction) {
 function startSlideShow() {
     slideInterval = setInterval(() => {
         moveSlides("right");
-    }, 5000); // 5 seconds
+    }, 10000); // 10seconds
 }
 
 function stopSlideShow() {
